@@ -1,0 +1,22 @@
+{
+  "name": "fetch-o-logo",
+  "version": "0.0.1",
+  "description": "Simple guess work to grab the url for a logo based on naive search logic.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "graphics",
+    "logo",
+    "search",
+    "google"
+  ],
+  "author": "Avner Cohen",
+  "license": "MIT",
+  "dependencies": {
+    "request": "~2.27.0",
+    "optimist": "~0.6.0"
+  }
+}
