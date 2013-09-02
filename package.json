@@ -1,6 +1,6 @@
 {
   "name": "fetch-o-logo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple guess work to grab the url for a logo based on naive search logic.",
   "main": "index.js",
   "scripts": {
