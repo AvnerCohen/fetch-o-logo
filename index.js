@@ -1,7 +1,7 @@
 var request = require('request');
 
 var type = "bing";
-module.exports = function fetchOLogo(query, callback, api_key){
+module.exports = function fetchOLogo(query, api_key, callback){
   var images = [];
   var url = generateQuery(type, query, api_key);
   request(url, function (error, response, body) {
