@@ -5,8 +5,8 @@ Based on google search api, might later be extended to other facilities.
 
 ```js
 var fetchOLogo = require('fetch-o-logo');
-  
-  fetchOLogo("nodejs", function(err, imagesArr){
+  // query_string, api_key for bing calls, callback
+  fetchOLogo("nodejs", "R**fx****Z76BioPEIQC**yY", function(err, imagesArr){
     console.log(imagesArr);
   });
 
